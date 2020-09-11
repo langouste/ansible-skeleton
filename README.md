@@ -45,3 +45,8 @@ py.test -v
 Code your infra and re-run playbooks with`vagrant provision`.
 
 Write assert in `*_test.py` files `py.test` will run them within the container using Testinfra's Ansible connection backend.
+
+Ressources
+----------
+
+**Dockerfile** : [langouste/docker-vagrant-ready](https://github.com/langouste/docker-vagrant-ready/blob/master/Dockerfile)
