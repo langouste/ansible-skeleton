@@ -1,4 +1,4 @@
-Ansible skeleton 
+Ansible skeleton
 ================
 
 A code base for ansible projects that include :
@@ -21,10 +21,9 @@ $ python3 -m pip install virtualenv
 $ virtualenv env
 $ source env/bin/activate
 $ pip install -r requirements.txt
-$ deactivate
 ```
 
-This install virtualenv on your system and create an isolated environment with python requirements (testinfra).
+This install virtualenv on your system and create an isolated environment with python requirements.
 
 ### 2. Run
 

@@ -5,11 +5,11 @@ Vagrant.configure("2") do |config|
     d.image = "langouste/vagrant-ready"
     d.has_ssh = true
     d.remains_running = true
-	d.create_args = [ 
-		"--tmpfs", "/tmp", 
-		"--tmpfs", "/run", 
-		"--tmpfs", "/run/lock", 
-		"-v", "/sys/fs/cgroup:/sys/fs/cgroup:ro" 
+	d.create_args = [
+		"--tmpfs", "/tmp",
+		"--tmpfs", "/run",
+		"--tmpfs", "/run/lock",
+		"-v", "/sys/fs/cgroup:/sys/fs/cgroup:ro"
 	]
   end
 
