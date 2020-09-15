@@ -41,7 +41,9 @@ py.test -v
 
 ### 3. Code
 
-Code your infra and re-run playbooks with`vagrant provision`.
+Code your infra and run playbooks with `vagrant provision`
+
+Extra to this ansible-playbook command can be used directly : `ansible-playbook site.yml`.
 
 Write assert in `*_test.py` files `py.test` will run them within the container using Testinfra's Ansible connection backend.
 
