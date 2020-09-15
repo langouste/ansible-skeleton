@@ -14,6 +14,8 @@ Usage
 
 `Docker`, `Vagrant` and `Pip` have to be installed
 
+> **Note :** Vagrant >= 2.2.10 is required for ssh auto_correct port collision with docker ([#9067](https://github.com/hashicorp/vagrant/issues/9067)).
+
 Install python requirements :
 
 ```bash
