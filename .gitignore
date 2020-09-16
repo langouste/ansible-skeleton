@@ -1,3 +1,6 @@
 .vagrant
 *.backup
 __pycache__
+
+roles/*
+!roles/requirements.yml
